@@ -1,0 +1,4 @@
+.claude-flow/
+.claude/
+node_modules/
+*.log

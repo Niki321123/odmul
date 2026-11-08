@@ -1,0 +1,12 @@
+{
+  "name": "odmul",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Odmuł: zasłuż na swój czas ekranowy. Nawyki i nauka zarabiają monety, monety odblokowują aplikacje.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/store.test.mjs",
+    "start": "npx --yes http-server src -p 5173 -c-1",
+    "icons": "python scripts/make_icons.py"
+  }
+}
